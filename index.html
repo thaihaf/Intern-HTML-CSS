@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THEGEM</title>
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="loading-page">
+            <img src="https://bit.ly/2XTN4Dm" alt="">
+        </div>
+
+        <div class="header">
+            <div class="container header-inner">
+
+                <a href="index.html" class="logo">
+                    <img src="./images/logo-header.png" class="logo__img"></img>
+                    <div class="logo__text">thegem</div>
+                </a>
+
+                <div class="menu">
+                    <div class="menu__item">
+                        <a href="#" class="menu__link menu__home active">home</a>
+                    </div>
+                    <div class="menu__item">
+                        <a href="#" class="menu__link menu__pages">pages</a>
+                    </div>
+                    <div class="menu__item ">
+                        <a href="#" class="menu__link menu__blog ">blog</a>
+                    </div>
+                    <div class="menu__item">
+                        <a href="#" class="menu__link menu__portfolios">portfolios</a>
+                    </div>
+                    <div class="menu__item">
+                        <a href="#" class="menu__link menu__shop">shop</a>
+                    </div>
+                    <div class="menu__item">
+                        <a href="#" class="menu__link menu__features">features</a>
+                    </div>
+                    <div class="menu__item">
+                        <a href="#" class="menu__link menu__elements">elements</a>
+                    </div>
+                </div>
+
+                <div class="header__actions">
+                    <div class="header__action language">
+                        <div class="language__display">
+                            <img src="./images/us-flag.png" alt="" data-id="us"
+                                class="language__img language__img-main">
+                            <div class="language__arrow">
+                                <ion-icon name="chevron-down-outline"></ion-icon>
+                            </div>
+
+                        </div>
+
+                        <div class="language__hidden">
+                            <div class="language__item" data-id="us">
+                                <div class="language__img">
+                                    <img src="./images/us-flag.png" alt=""">
+                                </div>
+                                <div class=" language__details">
+                                    <div class="language__text">English</div>
+                                    <div class="language__example">Hello</div>
+                                </div>
+                            </div>
+                            <div class="language__item" data-id="mx">
+                                <div class="language__img">
+                                    <img src="./images/mx-flag.png" alt=""">
+                                </div>
+                                <div class=" language__details">
+                                    <div class="language__text">Mexico</div>
+                                    <div class="language__example">Hello</div>
+                                </div>
+                            </div>
+                            <div class="language__item" data-id="vn">
+                                <div class="language__img">
+                                    <img src="./images/vn-flag.png" alt=""">
+                                </div>
+                                <div class=" language__details">
+                                    <div class="language__text">Vietnamese</div>
+                                    <div class="language__example">Xin chào</div>
+                                </div>
+                            </div>
+                            <div class="language__item" data-id="in">
+                                <div class="language__img">
+                                    <img src="./images/in-flag.png" alt=""">
+                                </div>
+                                <div class=" language__details">
+                                    <div class="language__text">India</div>
+                                    <div class="language__example">Hello</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="header__action search">
+                        <div class="search__icon">
+                            <ion-icon name="search-outline" class="header__icon search__icon"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="header__action cart">
+                        <span class="cart__icon">
+                            <ion-icon name="cart-outline" class="header__icon cart__icon"></ion-icon>
+                        </span>
+                        <span class="card__number">2</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-main">
+            <div class="slider__arrows">
+                <div class="slider__arrow slider__arrow-left">
+                    <ion-icon name="arrow-back-outline" class="arrow__icon"></ion-icon>
+                </div>
+                <div class="slider__arrow slider__arrow-right">
+                    <ion-icon name="arrow-forward-outline" class="arrow__icon"></ion-icon>
+                </div>
+            </div>
+
+            <div class="container slider__wrapper">
+                <div class="slider__slide">
+                    <div class="slider__details">
+                        <div class="slider__img">
+                            <img src="./images/menu-img.png" alt="">
+                        </div>
+                        <div class="slider__captions">
+                            <div class="slider__caption thin">pricing</div>
+                            <div class="slider__caption bold">tables</div>
+                        </div>
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+                            deleniti reiciendis alias doloremque dolores cupiditate quo minus quaerat suscipit,
+                            tenetur
+                            aliquid voluptatum optio vel provident molestiae itaque. Molestias, id eum.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quod a vel adipisci blanditiis?
+                            Magnam obcaecati necessitatibus ratione modi, omnis nobis dolor laborum voluptatem atque
+                            cupiditate accusamus unde cum veniam?
+                        </div>
+                        <div class="slider__buttons">
+                            <div class="slider__button">purcharse now</div>
+                            <div class="slider__button">more details</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__slide">
+                    <div class="slider__details">
+                        <div class="slider__img">
+                            <img src="./images/menu-img.png" alt="">
+                        </div>
+                        <div class="slider__captions">
+                            <div class="slider__caption thin">pricing</div>
+                            <div class="slider__caption bold">tables</div>
+                        </div>
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+                            deleniti reiciendis alias doloremque dolores cupiditate quo minus quaerat suscipit,
+                            tenetur
+                            aliquid voluptatum optio vel provident molestiae itaque. Molestias, id eum.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quod a vel adipisci blanditiis?
+                            Magnam obcaecati necessitatibus ratione modi, omnis nobis dolor laborum voluptatem atque
+                            cupiditate accusamus unde cum veniam?
+                        </div>
+                        <div class="slider__buttons">
+                            <div class="slider__button">purcharse now</div>
+                            <div class="slider__button">more details</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__slide">
+                    <div class="slider__details">
+                        <div class="slider__img">
+                            <img src="./images/menu-img.png" alt="">
+                        </div>
+                        <div class="slider__captions">
+                            <div class="slider__caption thin">pricing</div>
+                            <div class="slider__caption bold">tables</div>
+                        </div>
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+                            deleniti reiciendis alias doloremque dolores cupiditate quo minus quaerat suscipit,
+                            tenetur
+                            aliquid voluptatum optio vel provident molestiae itaque. Molestias, id eum.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quod a vel adipisci blanditiis?
+                            Magnam obcaecati necessitatibus ratione modi, omnis nobis dolor laborum voluptatem atque
+                            cupiditate accusamus unde cum veniam?
+                        </div>
+                        <div class="slider__buttons">
+                            <div class="slider__button">purcharse now</div>
+                            <div class="slider__button">more details</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__slide">
+                    <div class="slider__details">
+                        <div class="slider__img">
+                            <img src="./images/menu-img.png" alt="">
+                        </div>
+                        <div class="slider__captions">
+                            <div class="slider__caption thin">pricing</div>
+                            <div class="slider__caption bold">tables</div>
+                        </div>
+                        <div class="slider__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+                            deleniti reiciendis alias doloremque dolores cupiditate quo minus quaerat suscipit,
+                            tenetur
+                            aliquid voluptatum optio vel provident molestiae itaque. Molestias, id eum.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quod a vel adipisci blanditiis?
+                            Magnam obcaecati necessitatibus ratione modi, omnis nobis dolor laborum voluptatem atque
+                            cupiditate accusamus unde cum veniam?
+                        </div>
+                        <div class="slider__buttons">
+                            <div class="slider__button">purcharse now</div>
+                            <div class="slider__button">more details</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider__paginations">
+                <div class="slider__pagination active"></div>
+                <div class="slider__pagination"></div>
+                <div class="slider__pagination"></div>
+                <div class="slider__pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 1-->
+    <div class="wrapper">
+        <div class="container">
+            <div class="summary">
+                <div class="summary__captions">
+                    <div class="summary__caption thin">Lorem</div>
+                    <div class="summary__caption bold">ipsum</div>
+                </div>
+                <div class="summary__detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                    sunt
+                    in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
+                    error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+                    inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                    voluptatem
+                    quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                    consectetur,
+                    adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
+                    quaerat voluptatem. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</div>
+            </div>
+
+            <!-- 1 -->
+            <div class="pricing row g-0">
+                <div class="pricing__item col-3">
+                    <div class="pricing__type">beginer</div>
+
+                    <div class="pricing__main bg-green1">
+                        <div class="pricing__price">$1399</div>
+                        <div class="pricing__price-cal">per month</div>
+                    </div>
+
+                    <div class="pricing__details">
+                        <div class="pricing__detail">Drop out ramen hustle</div>
+                        <div class="pricing__detail">Coworking viral landing</div>
+                        <div class="pricing__detail pricing__detail--dismiss">Crush revenue traction</div>
+                        <div class="pricing__detail pricing__detail--dismiss">User base minimum viable</div>
+                        <div class="pricing__detail pricing__detail--dismiss">Lorem ipsum dolor</div>
+                    </div>
+
+                    <a href="#" class="pricing__button bg-green1">
+                        <div class="pricing__button-icon">
+                            <ion-icon name="caret-forward-outline"></ion-icon>
+                        </div>
+                        <div class="pricing__button-text">order</div>
+                    </a>
+                </div>
+                <div class="pricing__item pricing__item-new col-3">
+                    <div class="pricing__type">advanced</div>
+
+                    <div class="pricing__main bg-green2">
+                        <div class="pricing__price">$1399</div>
+                        <div class="pricing__price-cal">per month</div>
+                    </div>
+
+                    <div class="pricing__subtitle">
+                        <div class="pricing__title">subtitle goes here</div>
+                        <div class="pricing__desc">Subtitle second line goes here lorem ipsum *</div>
+                    </div>
+
+                    <div class="pricing__details">
+                        <div class="pricing__detail">Drop out ramen hustle</div>
+                        <div class="pricing__detail">Coworking viral landing</div>
+                        <div class="pricing__detail  pricing__detail--dismiss">Crush revenue traction</div>
+                        <div class="pricing__detail  pricing__detail--dismiss">User base minimum viable</div>
+                        <div class="pricing__detail  pricing__detail--dismiss">Lorem ipsum dolor</div>
+                    </div>
+
+                    <a href="#" class="pricing__button bg-green2">
+                        <div class="pricing__button-icon">
+                            <ion-icon name="caret-forward-outline"></ion-icon>
+                        </div>
+                        <div class="pricing__button-text">order</div>
+                    </a>
+                </div>
+                <div class="pricing__item col-3">
+                    <div class="pricing__type">master</div>
+
+                    <div class="pricing__main bg-green3">
+                        <div class="pricing__price">$1399</div>
+                        <div class="pricing__price-cal">per month</div>
+                    </div>
+
+                    <div class="pricing__subtitle">
+                        <div class="pricing__title">subtitle goes here</div>
+                        <div class="pricing__desc">Subtitle second line goes here lorem ipsum *</div>
+                    </div>
+
+                    <div class="pricing__details">
+                        <div class="pricing__detail">Drop out ramen hustle</div>
+                        <div class="pricing__detail">Coworking viral landing</div>
+                        <div class="pricing__detail  pricing__detail--dismiss">Crush revenue traction</div>
+                        <div class="pricing__detail  pricing__detail--dismiss">User base minimum viable</div>
+                        <div class="pricing__detail  pricing__detail--dismiss">Lorem ipsum dolor</div>
+                    </div>
+
+                    <a href="#" class="pricing__button bg-green3">
+                        <div class="pricing__button-icon">
+                            <ion-icon name="caret-forward-outline"></ion-icon>
+                        </div>
+                        <div class="pricing__button-text">order</div>
+                    </a>
+                </div>
+                <div class="pricing__item col-3">
+                    <div class="pricing__type">insane</div>
+
+                    <div class="pricing__main bg-purple">
+                        <div class="pricing__price">$1399</div>
+                        <div class="pricing__price-cal">per month</div>
+                    </div>
+
+                    <div class="pricing__subtitle">
+                        <div class="pricing__title">subtitle goes here</div>
+                        <div class="pricing__desc">Subtitle second line goes here lorem ipsum *</div>
+                    </div>
+
+                    <div class="pricing__details">
+                        <div class="pricing__detail">Drop out ramen hustle</div>
+                        <div class="pricing__detail">Coworking viral landing</div>
+                        <div class="pricing__detail  pricing__detail--dismiss">Crush revenue traction</div>
+                        <div class="pricing__detail  pricing__detail--dismiss">User base minimum viable</div>
+                        <div class="pricing__detail  pricing__detail--dismiss">Lorem ipsum dolor</div>
+                    </div>
+
+                    <a href="#" class="pricing__button bg-purple">
+                        <div class="pricing__button-icon">
+                            <ion-icon name="caret-forward-outline"></ion-icon>
+                        </div>
+                        <div class="pricing__button-text">order</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2 -->
+    <div class="wrapper">
+        <div class="container">
+            <div class="pricing pricing-2">
+                <div class="pricing__item">
+
+                    <div class="pricing__main">
+                        <div class="pricing__type">beginer</div>
+                        <span class="pricing__price">$1399</span>
+                        <span class="pricing__price-cal">per month</span>
+                    </div>
+
+                    <div class="pricing__bottom">
+                        <div class="pricing__subtitle">
+                            <div class="pricing__title">subtitle goes here</div>
+                            <div class="pricing__desc">Subtitle second line goes here lorem ipsum *</div>
+                        </div>
+
+                        <div class="pricing__details">
+                            <div class="pricing__detail pricing__detail--bg">Drop out ramen hustle</div>
+                            <div class="pricing__detail">Coworking viral landing</div>
+                            <div class="pricing__detail pricing__detail--dismiss pricing__detail--bg">Crush revenue
+                                traction
+                            </div>
+                            <div class="pricing__detail pricing__detail--dismiss">User base minimum viable</div>
+                            <div class="pricing__detail pricing__detail--dismiss pricing__detail--bg">Lorem ipsum dolor
+                            </div>
+                        </div>
+
+                        <div class="pricing__actions">
+                            <a href="#" class="pricing__button">
+                                <div class="pricing__button-icon">
+                                    <ion-icon name="caret-forward-outline"></ion-icon>
+                                </div>
+                                <div class="pricing__button-text">order</div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing__item  pricing__item-new">
+
+                    <div class="pricing__main">
+                        <div class="pricing__type">beginer</div>
+                        <span class="pricing__price">$1399</span>
+                        <span class="pricing__price-cal">per month</span>
+                    </div>
+
+                    <div class="pricing__bottom">
+                        <div class="pricing__subtitle">
+                            <div class="pricing__title">subtitle goes here</div>
+                            <div class="pricing__desc">Subtitle second line goes here lorem ipsum *</div>
+                        </div>
+
+                        <div class="pricing__details">
+                            <div class="pricing__detail pricing__detail--bg">Drop out ramen hustle</div>
+                            <div class="pricing__detail">Coworking viral landing</div>
+                            <div class="pricing__detail pricing__detail--dismiss pricing__detail--bg">Crush revenue
+                                traction
+                            </div>
+                            <div class="pricing__detail pricing__detail--dismiss">User base minimum viable</div>
+                            <div class="pricing__detail pricing__detail--dismiss pricing__detail--bg">Lorem ipsum dolor
+                            </div>
+                        </div>
+
+                        <div class="pricing__actions">
+                            <a href="#" class="pricing__button">
+                                <div class="pricing__button-icon">
+                                    <ion-icon name="caret-forward-outline"></ion-icon>
+                                </div>
+                                <div class="pricing__button-text">order</div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing__item">
+
+                    <div class="pricing__main">
+                        <div class="pricing__type">beginer</div>
+                        <span class="pricing__price">$1399</span>
+                        <span class="pricing__price-cal">per month</span>
+                        <div class="pricing__price-decs">The best price/quanity plan*</div>
+                    </div>
+
+                    <div class="pricing__bottom">
+                        <div class="pricing__subtitle">
+                            <div class="pricing__title">subtitle goes here</div>
+                            <div class="pricing__desc">Subtitle second line goes here lorem ipsum *</div>
+                        </div>
+
+                        <div class="pricing__details">
+                            <div class="pricing__detail pricing__detail--bg">Drop out ramen hustle</div>
+                            <div class="pricing__detail">Coworking viral landing</div>
+                            <div class="pricing__detail pricing__detail--dismiss pricing__detail--bg">Crush revenue
+                                traction
+                            </div>
+                            <div class="pricing__detail pricing__detail--dismiss pricing__detail--bg">User base minimum
+                                viable</div>
+                            <div class="pricing__detail pricing__detail--dismiss pricing__detail--bg">Lorem ipsum dolor
+                            </div>
+                        </div>
+
+                        <div class="pricing__actions">
+                            <a href="#" class="pricing__button">
+                                <div class="pricing__button-icon">
+                                    <ion-icon name="caret-forward-outline"></ion-icon>
+                                </div>
+                                <div class="pricing__button-text">order</div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3 -->
+    <div class="wrapper">
+        <div class="container">
+            <div class="pricing pricing-3">
+                <div class="pricing__item">
+
+                    <div class="pricing__subtitle">
+                        <div class="pricing__title">subtitle goes here</div>
+                        <div class="pricing__desc">Subtitle second line goes here lorem ipsum *</div>
+                    </div>
+
+                    <div class="pricing__main">
+                        <div class="pricing__price">$9</div>
+                        <div class="pricing__price-cal">per month</div>
+                    </div>
+
+                    <div class="pricing__type">basic</div>
+
+                    <div class="pricing__details">
+                        <div class="pricing__detail">Drop out ramen hustle</div>
+                        <div class="pricing__detail">Coworking viral landing</div>
+                        <div class="pricing__detail pricing__detail--dismiss">Crush revenue traction</div>
+                        <div class="pricing__detail pricing__detail--dismiss">User base minimum viable</div>
+                        <div class="pricing__detail pricing__detail--dismiss">Lorem ipsum dolor</div>
+                    </div>
+
+                    <a href="#" class="pricing__button">
+                        <div class="pricing__button-text">order now</div>
+                    </a>
+                </div>
+                <div class="pricing__item pricing__item-new">
+
+                    <div class="pricing__subtitle">
+                        <div class="pricing__title">subtitle goes here</div>
+                        <div class="pricing__desc">Subtitle second line goes here lorem ipsum *</div>
+                    </div>
+
+                    <div class="pricing__main">
+                        <div class="pricing__price">$995646</div>
+                        <div class="pricing__price-cal">per month</div>
+                    </div>
+
+                    <div class="pricing__type">standard</div>
+
+                    <div class="pricing__details">
+                        <div class="pricing__detail">Drop out ramen hustle</div>
+                        <div class="pricing__detail">Coworking viral landing</div>
+                        <div class="pricing__detail  pricing__detail--dismiss">Crush revenue traction</div>
+                        <div class="pricing__detail  pricing__detail--dismiss">User base minimum viable</div>
+                        <div class="pricing__detail  pricing__detail--dismiss">Lorem ipsum dolor</div>
+                    </div>
+
+                    <a href="#" class="pricing__button">
+                        <div class="pricing__button-text">order now</div>
+                    </a>
+                </div>
+                <div class="pricing__item">
+
+                    <div class="pricing__subtitle">
+                        <div class="pricing__title">subtitle goes here</div>
+                        <div class="pricing__desc">Subtitle second line goes here lorem ipsum *</div>
+                    </div>
+
+                    <div class="pricing__main">
+                        <div class="pricing__price">$1399</div>
+                        <div class="pricing__price-cal">per month</div>
+                    </div>
+
+                    <div class="pricing__type">ultimate</div>
+
+                    <div class="pricing__details">
+                        <div class="pricing__detail">Drop out ramen hustle</div>
+                        <div class="pricing__detail">Coworking viral landing</div>
+                        <div class="pricing__detail  pricing__detail--dismiss">Crush revenue traction</div>
+                        <div class="pricing__detail  pricing__detail--dismiss">User base minimum viable</div>
+                        <div class="pricing__detail  pricing__detail--dismiss">Lorem ipsum dolor</div>
+                    </div>
+
+                    <a href="#" class="pricing__button">
+                        <div class="pricing__button-text">order now</div>
+                    </a>
+                </div>
+                <div class="pricing__item">
+
+                    <div class="pricing__subtitle">
+                        <div class="pricing__title">subtitle goes here</div>
+                        <div class="pricing__desc">Subtitle second line goes here lorem ipsum *</div>
+                    </div>
+
+                    <div class="pricing__main">
+                        <div class="pricing__price">$1399</div>
+                        <div class="pricing__price-cal">per month</div>
+                    </div>
+
+                    <div class="pricing__type">premium</div>
+
+                    <div class="pricing__details">
+                        <div class="pricing__detail">Drop out ramen hustle</div>
+                        <div class="pricing__detail">Coworking viral landing</div>
+                        <div class="pricing__detail  pricing__detail--dismiss">Crush revenue traction</div>
+                        <div class="pricing__detail  pricing__detail--dismiss">User base minimum viable</div>
+                        <div class="pricing__detail  pricing__detail--dismiss">Lorem ipsum dolor</div>
+                    </div>
+
+                    <a href="#" class="pricing__button">
+                        <div class="pricing__button-text">order now</div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- 4 -->
+    <div class="wrapper wrapper-black">
+        <div class="container">
+            <div class="pricing pricing-3 pricing-4">
+                <div class="pricing__item">
+                    <div class="pricing__main pricing__main--green">
+                        <div class="pricing__price">$9</div>
+                        <div class="pricing__price-cal">per month</div>
+                    </div>
+
+                    <div class="pricing__type pricing__type--green">tiny</div>
+
+                    <div class="pricing__subtitle">
+                        <div class="pricing__title">subtitle goes here</div>
+                        <div class="pricing__desc">Subtitle second line goes here lorem ipsum *</div>
+                    </div>
+
+                    <div class="pricing__details pricing__details--green">
+                        <div class="pricing__detail">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            Drop out ramen hustle
+                        </div>
+                        <div class="pricing__detail">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            Coworking viral landing
+                        </div>
+                        <div class="pricing__detail pricing__detail--dismiss">Crush revenue traction</div>
+                        <div class="pricing__detail pricing__detail--dismiss">User base minimum viable</div>
+                        <div class="pricing__detail pricing__detail--dismiss">Lorem ipsum dolor</div>
+                    </div>
+
+                    <a href="#" class="pricing__button">
+                        <div class="pricing__button-text">order now</div>
+                    </a>
+                </div>
+                <div class="pricing__item pricing__item-new">
+
+                    <div class="pricing__main pricing__main--purple">
+                        <div class="pricing__price">$995646</div>
+                        <div class="pricing__price-cal">per month</div>
+                    </div>
+
+                    <div class="pricing__type pricing__type--purple">small</div>
+
+                    <div class="pricing__subtitle">
+                        <div class="pricing__title">subtitle goes here</div>
+                        <div class="pricing__desc">Subtitle second line goes here lorem ipsum *</div>
+                    </div>
+
+                    <div class="pricing__details pricing__details--purple">
+                        <div class="pricing__detail">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            Drop out ramen hustle
+                        </div>
+                        <div class="pricing__detail">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            Coworking viral landing
+                        </div>
+                        <div class="pricing__detail">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            Crush revenue traction
+                        </div>
+                        <div class="pricing__detail  pricing__detail--dismiss">User base minimum viable</div>
+                        <div class="pricing__detail  pricing__detail--dismiss">Lorem ipsum dolor</div>
+                    </div>
+
+                    <a href="#" class="pricing__button">
+                        <div class="pricing__button-text">order now</div>
+                    </a>
+                </div>
+                <div class="pricing__item">
+
+                    <div class="pricing__main pricing__main--pink">
+                        <div class="pricing__price">$1399</div>
+                        <div class="pricing__price-cal">per month</div>
+                    </div>
+
+                    <div class="pricing__type pricing__type--pink">medium</div>
+
+                    <div class="pricing__subtitle">
+                        <div class="pricing__title">subtitle goes here</div>
+                        <div class="pricing__desc">Subtitle second line goes here lorem ipsum *</div>
+                    </div>
+
+                    <div class="pricing__details pricing__details--pink">
+                        <div class="pricing__detail">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            Drop out ramen hustle
+                        </div>
+                        <div class="pricing__detail">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            Coworking viral landing
+                        </div>
+                        <div class="pricing__detail">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            Crush revenue traction
+                        </div>
+                        <div class="pricing__detail">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            User base minimum viable
+                        </div>
+                        <div class="pricing__detail  pricing__detail--dismiss">Lorem ipsum dolor</div>
+                    </div>
+
+                    <a href="#" class="pricing__button">
+                        <div class="pricing__button-text">order now</div>
+                    </a>
+                </div>
+                <div class="pricing__item">
+
+                    <div class="pricing__main pricing__main--yellow">
+                        <div class="pricing__price">$1399</div>
+                        <div class="pricing__price-cal">per month</div>
+                    </div>
+
+                    <div class="pricing__type pricing__type--yellow">large</div>
+
+                    <div class="pricing__subtitle">
+                        <div class="pricing__title">subtitle goes here</div>
+                        <div class="pricing__desc">Subtitle second line goes here lorem ipsum *</div>
+                    </div>
+
+                    <div class="pricing__details pricing__details--yellow">
+                        <div class="pricing__detail">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            Drop out ramen hustle
+                        </div>
+                        <div class="pricing__detail">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            Coworking viral landing
+                        </div>
+                        <div class="pricing__detail">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            Crush revenue traction
+                        </div>
+                        <div class="pricing__detail">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            User base minimum viable
+                        </div>
+                        <div class="pricing__detail">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            Lorem ipsum dolor
+                        </div>
+                    </div>
+
+                    <a href="#" class="pricing__button">
+                        <div class="pricing__button-text">order now</div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 5 -->
+    <div class="wrapper wrapper--gray-light">
+        <div class="container">
+            <div class="pricing pricing-5">
+
+                <div class="pricing__item  pricing__item-new">
+                    <div class="pricing__main" style="background-image: url(./images/ocean-img.png)">
+                        <div class="pricing__price price">
+                            <div class="price__num price__num--blue">$9</div>
+                            <div class="price__decs">per tour</div>
+                        </div>
+
+                        <div class="pricing__type type">
+                            <div class="type__name">ocean</div>
+                        </div>
+
+                    </div>
+
+                    <div class="pricing__bottom">
+                        <div class="pricing__subtitle">
+                            <div class="pricing__title">subtitle goes here</div>
+                            <div class="pricing__desc">Subtitle second line goes here lorem ipsum *</div>
+                        </div>
+
+                        <div class="pricing__details">
+                            <div class="pricing__detail pricing__detail--bg">Drop out ramen hustle</div>
+                            <div class="pricing__detail">Coworking viral landing</div>
+                            <div class="pricing__detail pricing__detail--dismiss pricing__detail--bg">Crush revenue
+                                traction</div>
+                            <div class="pricing__detail pricing__detail--dismiss">User base minimum viable</div>
+                            <div class="pricing__detail pricing__detail--dismiss pricing__detail--bg">Lorem ipsum dolor
+                            </div>
+                        </div>
+
+                        <a href="#" class="pricing__button pricing__button--blue">
+                            <div class="pricing__button-text">buy tour</div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="pricing__item">
+                    <div class="pricing__main" style="background-image: url(./images/moutain-img.png)">
+                        <div class="pricing__price price">
+                            <div class="price__num price__num--pink">$9</div>
+                            <div class="price__decs">per tour</div>
+                        </div>
+
+                        <div class="pricing__type type">
+                            <div class="type__name">ocean</div>
+                            <div class="type__decs">The best price/quantity plan*</div>
+                        </div>
+
+                    </div>
+
+                    <div class="pricing__bottom">
+                        <div class="pricing__subtitle">
+                            <div class="pricing__title">subtitle goes here</div>
+                            <div class="pricing__desc">Subtitle second line goes here lorem ipsum *</div>
+                        </div>
+
+                        <div class="pricing__details">
+                            <div class="pricing__detail  pricing__detail--bg">Drop out ramen hustle</div>
+                            <div class="pricing__detail">Coworking viral landing</div>
+                            <div class="pricing__detail pricing__detail--dismiss pricing__detail--bg">Crush revenue
+                                traction</div>
+                            <div class="pricing__detail pricing__detail--dismiss">User base minimum viable</div>
+                            <div class="pricing__detail pricing__detail--dismiss pricing__detail--bg">Lorem ipsum dolor
+                            </div>
+                        </div>
+
+                        <a href="#" class="pricing__button  pricing__button--pink">
+                            <div class="pricing__button-text">buy tour</div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="pricing__item">
+                    <div class="pricing__main" style="background-image: url(./images/forest-img.png)">
+                        <div class="pricing__price price">
+                            <div class="price__num price__num--green">$9</div>
+                            <div class="price__decs">per tour</div>
+                        </div>
+
+                        <div class="pricing__type type">
+                            <div class="type__name">ocean</div>
+                        </div>
+
+                    </div>
+
+                    <div class="pricing__bottom">
+                        <div class="pricing__subtitle">
+                            <div class="pricing__title">subtitle goes here</div>
+                            <div class="pricing__desc">Subtitle second line goes here lorem ipsum *</div>
+                        </div>
+
+                        <div class="pricing__details">
+                            <div class="pricing__detail pricing__detail--bg">Drop out ramen hustle</div>
+                            <div class="pricing__detail">Coworking viral landing</div>
+                            <div class="pricing__detail pricing__detail--dismiss pricing__detail--bg">Crush revenue
+                                traction</div>
+                            <div class="pricing__detail pricing__detail--dismiss">User base minimum viable</div>
+                            <div class="pricing__detail pricing__detail--dismiss pricing__detail--bg">Lorem ipsum dolor
+                            </div>
+                        </div>
+
+                        <a href="#" class="pricing__button pricing__button--green">
+                            <div class="pricing__button-text">buy tour</div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 6 -->
+    <div class="wrapper">
+        <div class="container">
+            <div class="pricing pricing-5 pricing-6">
+
+                <div class="pricing__item">
+                    <div class="pricing__main pricing__main--green">
+                        <div class="pricing__price price">
+                            <div class="price__num price__num--green">$9</div>
+                            <div class="price__decs">per tour</div>
+                        </div>
+
+                        <div class="pricing__type type">
+                            <div class="type__name">ocean</div>
+                        </div>
+
+                    </div>
+
+                    <div class="pricing__bottom">
+                        <div class="pricing__subtitle">
+                            <div class="pricing__title">subtitle goes here</div>
+                            <div class="pricing__desc">Subtitle second line goes here lorem ipsum *</div>
+                        </div>
+
+                        <div class="pricing__details  pricing__details--green">
+                            <div class="pricing__detail pricing__detail--bg">
+                                <img src="./images/checkbox.png" alt="">
+                                Drop out ramen hustle
+                            </div>
+                            <div class="pricing__detail">
+                                <img src="./images/checkbox.png" alt="">
+                                Coworking viral landing
+                            </div>
+                            <div class="pricing__detail pricing__detail--bg">
+                                <img src="./images/checkbox.png" alt="">Crush revenue
+                                traction
+                            </div>
+                            <div class="pricing__detail">
+                                <img src="./images/checkbox.png" alt="">User base minimum viable
+                            </div>
+                            <div class="pricing__detail pricing__detail--bg">
+                                <img src="./images/checkbox.png" alt="">Lorem ipsum dolor
+                            </div>
+                        </div>
+
+                        <a href="#" class="pricing__button">
+                            <div class="pricing__button-text">order</div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="pricing__item pricing__item-new">
+                    <div class="pricing__main pricing__main--blue">
+                        <div class="pricing__price price">
+                            <div class="price__num price__num--blue">$9</div>
+                            <div class="price__decs">per tour</div>
+                        </div>
+
+                        <div class="pricing__type type">
+                            <div class="type__name">ocean</div>
+                            <div class="type__decs">The best price/quantity plan*</div>
+                        </div>
+
+                    </div>
+
+                    <div class="pricing__bottom">
+                        <div class="pricing__subtitle">
+                            <div class="pricing__title">subtitle goes here</div>
+                            <div class="pricing__desc">Subtitle second line goes here lorem ipsum *</div>
+                        </div>
+
+                        <div class="pricing__details  pricing__details--blue">
+                            <div class="pricing__detail  pricing__detail--bg">
+                                <img src="./images/checkbox.png" alt="">
+                                Drop out ramen hustle
+                            </div>
+                            <div class="pricing__detail">
+                                <img src="./images/checkbox.png" alt="">
+                                Coworking viral landing
+                            </div>
+                            <div class="pricing__detail pricing__detail--bg">
+                                <img src="./images/checkbox.png" alt="">Crush revenue
+                                traction
+                            </div>
+                            <div class="pricing__detail">
+                                <img src="./images/checkbox.png" alt="">User base minimum viable
+                            </div>
+                            <div class="pricing__detail pricing__detail--bg">
+                                <img src="./images/checkbox.png" alt="">Lorem ipsum dolor
+                            </div>
+                        </div>
+
+                        <a href="#" class="pricing__button">
+                            <div class="pricing__button-text">order</div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="pricing__item">
+                    <div class="pricing__main pricing__main--purple">
+                        <div class="pricing__price price">
+                            <div class="price__num price__num--purple">$9</div>
+                            <div class="price__decs">per tour</div>
+                        </div>
+
+                        <div class="pricing__type type">
+                            <div class="type__name">ocean</div>
+                        </div>
+
+                    </div>
+
+                    <div class="pricing__bottom pricing__bottom--border-right">
+                        <div class="pricing__subtitle">
+                            <div class="pricing__title">subtitle goes here</div>
+                            <div class="pricing__desc">Subtitle second line goes here lorem ipsum *</div>
+                        </div>
+
+                        <div class="pricing__details pricing__details--purple">
+                            <div class="pricing__detail pricing__detail--bg">
+                                <img src="./images/checkbox.png" alt="">
+                                Drop out ramen hustle
+                            </div>
+                            <div class="pricing__detail">
+                                <img src="./images/checkbox.png" alt="">
+                                Coworking viral landing
+                            </div>
+                            <div class="pricing__detail pricing__detail--bg">
+                                <img src="./images/checkbox.png" alt="">Crush revenue
+                                traction
+                            </div>
+                            <div class="pricing__detail">
+                                <img src="./images/checkbox.png" alt="">User base minimum viable
+                            </div>
+                            <div class="pricing__detail pricing__detail--bg">
+                                <img src="./images/checkbox.png" alt="">Lorem ipsum dolor
+                            </div>
+                        </div>
+
+                        <a href="#" class="pricing__button">
+                            <div class="pricing__button-text">order</div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 7 -->
+    <div class="wrapper wrapper--gray-light">
+        <div class="container">
+            <div class="pricing pricing-7">
+                <div class="pricing__item pricing__item-new">
+                    <div class="pricing__main">
+
+                        <div class="pricing__type type">
+                            <div class="type__name">newborns</div>
+                        </div>
+
+                        <div class="pricing__price price">
+                            <div class="price__num">$9</div>
+                            <div class="price__decs">per month</div>
+                        </div>
+
+                    </div>
+
+                    <div class="pricing__bottom">
+                        <div class="pricing__subtitle">
+                            <div class="pricing__title">subtitle goes here</div>
+                            <div class="pricing__desc">Subtitle second line goes here lorem ipsum *</div>
+                        </div>
+
+                        <div class="pricing__details">
+                            <div class="pricing__detail">
+                                Drop out ramen hustle
+                            </div>
+                            <div class="pricing__detail">
+                                Coworking viral landing
+                            </div>
+                            <div class="pricing__detail">
+                                Crush revenuetraction
+                            </div>
+                            <div class="pricing__detail">
+                                User base minimum viable
+                            </div>
+                            <div class="pricing__detail">
+                                Lorem ipsum dolor
+                            </div>
+                        </div>
+
+                        <a href="#" class="pricing__button">
+                            <div class="pricing__button-icon">
+                                <ion-icon name="caret-forward-outline"></ion-icon>
+                            </div>
+                            <div class="pricing__button-text">order</div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="pricing__item">
+                    <div class="pricing__main">
+
+                        <div class="pricing__type type">
+                            <div class="type__name">kids</div>
+                        </div>
+
+                        <div class="pricing__price price">
+                            <div class="price__num">$9</div>
+                            <div class="price__decs">per month</div>
+                        </div>
+
+                    </div>
+
+                    <div class="pricing__bottom">
+                        <div class="pricing__subtitle">
+                            <div class="pricing__title">subtitle goes here</div>
+                            <div class="pricing__desc">Subtitle second line goes here lorem ipsum *</div>
+                        </div>
+
+                        <div class="pricing__details">
+                            <div class="pricing__detail">
+                                Drop out ramen hustle
+                            </div>
+                            <div class="pricing__detail">
+                                Coworking viral landing
+                            </div>
+                            <div class="pricing__detail">
+                                Crush revenuetraction
+                            </div>
+                            <div class="pricing__detail">
+                                User base minimum viable
+                            </div>
+                            <div class="pricing__detail">
+                                Lorem ipsum dolor
+                            </div>
+                        </div>
+
+                        <a href="#" class="pricing__button">
+                            <div class="pricing__button-icon">
+                                <ion-icon name="caret-forward-outline"></ion-icon>
+                            </div>
+                            <div class="pricing__button-text">order</div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="pricing__item">
+                    <div class="pricing__main">
+
+                        <div class="pricing__type type">
+                            <div class="type__name">teens</div>
+                            <div class="type__decs">Best price/quantity plan *</div>
+                        </div>
+
+                        <div class="pricing__price price">
+                            <div class="price__num">$9</div>
+                            <div class="price__decs">per month</div>
+                        </div>
+
+                    </div>
+
+                    <div class="pricing__bottom">
+                        <div class="pricing__subtitle">
+                            <div class="pricing__title">subtitle goes here</div>
+                            <div class="pricing__desc">Subtitle second line goes here lorem ipsum *</div>
+                        </div>
+
+                        <div class="pricing__details">
+                            <div class="pricing__detail">
+                                Drop out ramen hustle
+                            </div>
+                            <div class="pricing__detail">
+                                Coworking viral landing
+                            </div>
+                            <div class="pricing__detail">
+                                Crush revenuetraction
+                            </div>
+                            <div class="pricing__detail">
+                                User base minimum viable
+                            </div>
+                            <div class="pricing__detail">
+                                Lorem ipsum dolor
+                            </div>
+                        </div>
+
+                        <a href="#" class="pricing__button">
+                            <div class="pricing__button-icon">
+                                <ion-icon name="caret-forward-outline"></ion-icon>
+                            </div>
+                            <div class="pricing__button-text">order</div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="pricing__item">
+                    <div class="pricing__main">
+
+                        <div class="pricing__type type">
+                            <div class="type__name">ocean</div>
+                        </div>
+
+                        <div class="pricing__price price">
+                            <div class="price__num">$9</div>
+                            <div class="price__decs">per month</div>
+                        </div>
+
+                    </div>
+
+                    <div class="pricing__bottom">
+                        <div class="pricing__subtitle">
+                            <div class="pricing__title">subtitle goes here</div>
+                            <div class="pricing__desc">Subtitle second line goes here lorem ipsum *</div>
+                        </div>
+
+                        <div class="pricing__details">
+                            <div class="pricing__detail">
+                                Drop out ramen hustle
+                            </div>
+                            <div class="pricing__detail">
+                                Coworking viral landing
+                            </div>
+                            <div class="pricing__detail">
+                                Crush revenuetraction
+                            </div>
+                            <div class="pricing__detail">
+                                User base minimum viable
+                            </div>
+                            <div class="pricing__detail">
+                                Lorem ipsum dolor
+                            </div>
+                        </div>
+
+                        <a href="#" class="pricing__button">
+                            <div class="pricing__button-icon">
+                                <ion-icon name="caret-forward-outline"></ion-icon>
+                            </div>
+                            <div class="pricing__button-text">order</div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Adblock -->
+    <div class="wrapper wrapper-black">
+        <div class="container">
+            <div class="pricing ad-block">
+                <div class="ad-block__icon"><img src="./images/adblock.png" alt=""></div>
+                <div class="ad-block__title">ad block</div>
+                <div class="ad-block__decs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed
+                    ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                    rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                    explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+                    dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
+                    tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</div>
+                <div class="ad-block__btns">
+                    <div class="ad-block__btn">purcharse now</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="wrapper wrapper-black">
+        <div class="container">
+            <div class="footer">
+                <div class="footer__item">
+                    <div class="footer__main">
+                        <div class="logo">
+                            <div class="logo__img"><img src="./images/logo-footer.png" alt=""></div>
+                            <div class="logo__texts">
+                                <div class="logo__text">the</div>
+                                <div class="logo__text logo__text--bold">gem</div>
+                            </div>
+                        </div>
+                        <div class="footer__decs">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+                            sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh
+                            id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
+                            ipsum velit.
+                            Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat
+                            auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                            inceptos himenaeos. Mauris in erat justo.
+                            eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi.
+                            Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris
+                            egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</div>
+                    </div>
+
+                    <div class="footer__contact">
+                        <div class="footer__contact_cap">contact</div>
+                        <div class="address">
+                            <span class="address__title"><img src="./images/map-icon.png" alt="">Address:</span>
+                            <div class="address__list">
+                                <div class="address__item">908 New Hampshire Avenue Northwest </div>
+                                <div class="address__item">#100, Washington, DC</div>
+                                <div class="address__item">20037, United States</div>
+                            </div>
+                        </div>
+
+                        <hr style="margin: 2rem 0;" />
+
+                        <div class="phone">
+                            <span class="phone__title"><img src="./images/phone-icon.png" alt="">phone:</span>
+                            <span class="phone__content">0819889962</span>
+                        </div>
+
+                        <div class="fax">
+                            <span class="fax__title"><img src="./images/fax-icon.png" alt="">fax</span>
+                            <span class="fax__content">+1 916-875-2235</span>
+                        </div>
+
+                        <div class="email">
+                            <span class="email__title"><img src="./images/mail-icon.png" alt="">email</span>
+                            <span class="email__content">thaiha2268@gmail.com</span>
+                        </div>
+
+                        <div class="website">
+                            <span class="website__title"><img src="./images/website-icon.png" alt="">website</span>
+                            <span class="website__content">www.codex-themes.com</span>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <div class="recent-post">
+                        <div class="footer__contact_cap">recent posts</div>
+
+                        <div class="recent-post__list">
+                            <div class="post">
+                                <div class="post__thumn"></div>
+
+                                <div class="post__info">
+                                    <div class="post__title">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Recusandae, suscipit dolores iure voluptatem optio odit quod dolorem excepturi
+                                        ducimus, harum eos cumque! Facilis sed officia odio eaque laborum totam alias.
+                                    </div>
+
+                                    <div class="post__bottom">
+                                        <div class="post__datePublish">27 dec 2015</div>
+
+                                        <div class="post__chat">
+                                            <span class="post__chat_icon">
+                                                <img src="./images/chat-icon.png" alt="">
+                                            </span>
+                                            <span class="post__chat_number">10</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <hr style="margin: 2rem 0;" />
+
+                            <div class="post">
+                                <div class="post__thumn"></div>
+
+                                <div class="post__info">
+                                    <div class="post__title">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Recusandae, suscipit dolores iure voluptatem optio odit quod dolorem excepturi
+                                        ducimus, harum eos cumque! Facilis sed officia odio eaque laborum totam alias.
+                                    </div>
+                                    <div class="post__bottom">
+                                        <div class="post__datePublish">27 dec 2015</div>
+
+                                        <div class="post__chat post__chat__green">
+                                            <span class="post__chat_icon">
+                                                <img src="./images/chat-icon.png" alt="">
+                                            </span>
+                                            <span class="post__chat_number ">10</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <hr style="margin: 2rem 0;" />
+
+                            <div class="post">
+                                <div class="post__thumn"></div>
+
+                                <div class="post__info">
+                                    <div class="post__title">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Recusandae, suscipit dolores iure voluptatem optio odit quod dolorem excepturi
+                                        ducimus, harum eos cumque! Facilis sed officia odio eaque laborum totam alias.
+                                    </div>
+                                    <div class="post__bottom">
+                                        <div class="post__datePublish">27 dec 2015</div>
+
+                                        <div class="post__chat">
+                                            <span class="post__chat_icon">
+                                                <img src="./images/chat-icon.png" alt="">
+                                            </span>
+                                            <span class="post__chat_number">10</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="useful-link">
+                        <div class="footer__contact_cap">useful links</div>
+                        <div class="useful-link__list">
+                            <div class="useful-link__item">
+                                <div class="useful-link__dot"></div>
+                                <a href="">generate information for users</a>
+                            </div>
+                            <div class="useful-link__item">
+                                <div class="useful-link__dot"></div>
+                                <a href="">interactive fairy tales</a>
+                            </div>
+                            <div class="useful-link__item">
+                                <div class="useful-link__dot"></div>
+                                <a href="">official stotybook maker website</a>
+                            </div>
+                            <div class="useful-link__item">
+                                <div class="useful-link__dot"></div>
+                                <a href="">everyday mathematics links</a>
+                            </div>
+                            <div class="useful-link__item">
+                                <div class="useful-link__dot"></div>
+                                <a href="">basic knowledge and experience</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <div class="email-us">
+                        <div class="footer__contact_cap">email us</div>
+                        <input type="text" class="email-us__name">
+                        <input type="email" class="email-us__email"></input>
+                        <input type="text" class="email-us__mess"></input>
+                        <div class="email-us__btn">send message</div>
+                    </div>
+
+                    <div class="project">
+                        <div class="footer__contact_cap">project / cilents?</div>
+                        <div class="project__list">
+                            <div class="project__item"></div>
+                            <div class="project__item"></div>
+                            <div class="project__item"></div>
+                            <div class="project__item"></div>
+                            <div class="project__item"></div>
+                            <div class="project__item"></div>
+                            <div class="project__item"></div>
+                            <div class="project__item"></div>
+                            <div class="project__item"></div>
+                            <div class="project__item"></div>
+                            <div class="project__item"></div>
+                            <div class="project__item"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <div class="flickr-feed">
+                        <div class="footer__contact_cap">flickr feed</div>
+                        <div class="flickr-feed__list">
+                            <div class="flickr-feed__item"></div>
+                            <div class="flickr-feed__item"></div>
+                            <div class="flickr-feed__item"></div>
+                            <div class="flickr-feed__item"></div>
+                            <div class="flickr-feed__item"></div>
+                            <div class="flickr-feed__item"></div>
+                            <div class="flickr-feed__item"></div>
+                            <div class="flickr-feed__item"></div>
+                            <div class="flickr-feed__item"></div>
+                        </div>
+                    </div>
+
+                    <div class="news-letter">
+                        <div class="footer__contact_cap">newsletter</div>
+
+                        <div class="news-letter__desc">Subscribe to our MailChimp newsletter and stay up to date with
+                            all events coming straight in your mailbox:</div>
+                        <div class="news-letter__input">
+                            <input type="email">
+                            <div class="news-letter__btn">
+                                <ion-icon name="chevron-forward-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="news-letter__noti">* Personal information will be encrypted</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  -->
+    <!-- Jquery  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous">
+    </script>
+
+    <!-- Ionicon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- JS File -->
+    <script type="text/javascript" src="./js/style.js"></script>
+</body>
+
+</html>
